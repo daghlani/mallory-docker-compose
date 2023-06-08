@@ -2,7 +2,7 @@
   "id_rsa": "/tmp/id_rsa",
   "local_smart": ":1315",
   "local_normal": ":1316",
-  "remote": "ssh://alidd@80.87.206.55:2223",
+  "remote": "ssh://user@ip:22",
   "blocked": [
     "angularjs.org",
     "golang.org",
