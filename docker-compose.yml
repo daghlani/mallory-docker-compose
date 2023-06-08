@@ -9,3 +9,4 @@ services:
     volumes:
       - '$PWD/mallory.json:/root/.config/mallory.json'
       - '~/.ssh/id_rsa:/tmp/id_rsa'
+    restart: always
