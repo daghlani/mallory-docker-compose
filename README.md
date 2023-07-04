@@ -45,9 +45,9 @@
 
 
   - then save config file and run docker-compose file by this command:
-  ```bash
-  docker-compose up -d
+    ```bash
+    docker-compose up -d
 
-  ```
+    ```
 
 >  For more information you can read original docs in [This](https://github.com/justmao945/mallory) repository
