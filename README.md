@@ -1,7 +1,20 @@
 # Mallory Docker Compose
  This is a docker-compose repo to use [This](https://github.com/justmao945/mallory) project (docker version). This is a way to use HTTP/HTTPS proxy over SSH.
 ## Usage
+
+  - create a config file:
+
+  ```bash
+  cp mallory.json.tmp mallory.json
+  ```
+
+
+
   - edit mallory.json:
+    ```bash
+    vi mallory.json
+    ```
+  - This is a sample of config file. change it according your target server.
     ```bash
     {
       "id_rsa": "$HOME/.ssh/id_rsa",
@@ -31,7 +44,7 @@
     - blocked is a list of domains that need use proxy, any other domains will connect to their server directly
 
 
-  - run docker-compose file by this command:
+  - then save config file and run docker-compose file by this command:
   ```bash
   docker-compose up -d
 
