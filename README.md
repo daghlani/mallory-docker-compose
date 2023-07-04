@@ -4,9 +4,9 @@
 
   - create a config file:
 
-  ```bash
-  cp mallory.json.tmp mallory.json
-  ```
+    ```bash
+    cp mallory.json.tmp mallory.json
+    ```
 
 
 
